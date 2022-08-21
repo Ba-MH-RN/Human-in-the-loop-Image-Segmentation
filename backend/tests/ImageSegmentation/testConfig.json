@@ -1,0 +1,5 @@
+{
+    "baselineModelPath" : "tests/ImageSegmentation/baselineModels/catModel.h5",
+    "modelDirectory" : "tests/Data/tests/models/",
+    "annotations" : [{"id": 0, "name": "cat"}]
+}

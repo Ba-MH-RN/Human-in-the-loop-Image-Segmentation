@@ -1,0 +1,5 @@
+{
+    "modelDirectory" : "Data/floorplan/models/",
+    "baselineModelPath" : "ImageSegmentation/baselineModels/floorplanModel",
+    "annotations" : [{"id": 0, "name": "room"},{"id": 1, "name": "door"},{"id": 2, "name": "obstacle"}]
+}

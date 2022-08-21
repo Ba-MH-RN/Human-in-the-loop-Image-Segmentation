@@ -1,0 +1,65 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.0, pytest-7.1.2, pluggy-1.0.0
+rootdir: C:\Users\roger\Documents\Projekte\Bachelorarbeit\00_src\backend
+plugins: anyio-3.6.1, cov-3.0.0
+collected 100 items
+
+tests\Data\COCO_JSON\test_coco_handler.py ...                            [  3%]
+tests\Data\COCO_JSON\test_coco_parser.py ......                          [  9%]
+tests\ImageSegmentation\test_predictor.py ......                         [ 15%]
+tests\ImageSegmentation\modelControl\test_custom_kearas_objects.py ....  [ 19%]
+tests\ImageSegmentation\modelControl\test_model_version_control.py ..... [ 24%]
+...                                                                      [ 27%]
+tests\ImageSegmentation\modelControl\test_retrainer.py .....             [ 32%]
+tests\ImageSegmentation\processing\test_postprocess.py ............      [ 44%]
+tests\ImageSegmentation\processing\test_preprocess.py ........           [ 52%]
+tests\REST_Server\database\test_crud.py ......................           [ 74%]
+tests\REST_Server\endpoints\test_general.py ...                          [ 77%]
+tests\REST_Server\endpoints\test_imageSegmentation.py ............       [ 89%]
+tests\REST_Server\evaluation\test_metrics.py ...........                 [100%]
+
+---------- coverage: platform win32, python 3.10.0-final-0 -----------
+Name                                                                      Stmts   Miss  Cover
+---------------------------------------------------------------------------------------------
+C:\Users\roger\AppData\Local\Temp\__autograph_generated_file45yfsemq.py      17      3    82%
+C:\Users\roger\AppData\Local\Temp\__autograph_generated_filealuhykqb.py      17      3    82%
+C:\Users\roger\AppData\Local\Temp\__autograph_generated_filecwttp51a.py      17      3    82%
+Data\COCO_JSON\cocoHandler.py                                                24      0   100%
+Data\COCO_JSON\cocoParser.py                                                 25      0   100%
+ImageSegmentation\Predictor.py                                               70      1    99%
+ImageSegmentation\imageSegmentationInterface.py                              14      3    79%
+ImageSegmentation\modelControl\ModelVersionControl.py                        56      3    95%
+ImageSegmentation\modelControl\customKearasObjects.py                        17      0   100%
+ImageSegmentation\modelControl\retrainer.py                                  53      0   100%
+ImageSegmentation\processing\postprocess.py                                  60      0   100%
+ImageSegmentation\processing\preprocess.py                                   23      0   100%
+REST_Server\config.py                                                         1      0   100%
+REST_Server\database\crud.py                                                115      0   100%
+REST_Server\database\database.py                                             13      4    69%
+REST_Server\database\tables.py                                               39      0   100%
+REST_Server\endpoints\general.py                                             42      1    98%
+REST_Server\endpoints\imageSegmentation.py                                  122      6    95%
+REST_Server\evaluation\metrics.py                                            50      0   100%
+REST_Server\evaluation\plots.py                                             104      1    99%
+REST_Server\main.py                                                          21      1    95%
+REST_Server\models\pydanticSchemas.py                                        56      5    91%
+REST_Server\models\sqlAlchemyTypes.py                                        15      0   100%
+tests\Data\COCO_JSON\test_coco_handler.py                                    19      0   100%
+tests\Data\COCO_JSON\test_coco_parser.py                                     55      0   100%
+tests\ImageSegmentation\modelControl\test_custom_kearas_objects.py           19      0   100%
+tests\ImageSegmentation\modelControl\test_model_version_control.py           70      0   100%
+tests\ImageSegmentation\modelControl\test_retrainer.py                       99      0   100%
+tests\ImageSegmentation\processing\test_postprocess.py                       92      0   100%
+tests\ImageSegmentation\processing\test_preprocess.py                        50      0   100%
+tests\ImageSegmentation\test_predictor.py                                    41      0   100%
+tests\REST_Server\clientFastApi.py                                           30      0   100%
+tests\REST_Server\database\dummyDatabase.py                                  20      0   100%
+tests\REST_Server\database\test_crud.py                                     196      0   100%
+tests\REST_Server\endpoints\test_general.py                                  17      0   100%
+tests\REST_Server\endpoints\test_imageSegmentation.py                        72      0   100%
+tests\REST_Server\evaluation\test_metrics.py                                 68      0   100%
+---------------------------------------------------------------------------------------------
+TOTAL                                                                      1819     34    98%
+
+
+======================= 100 passed in 94.16s (0:01:34) ========================

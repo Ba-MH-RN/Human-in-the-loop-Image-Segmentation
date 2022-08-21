@@ -1,0 +1,30 @@
+.button {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 20%;
+
+  background-color: #99CCB5;
+  box-shadow: 2px 2px 8px #146C58;
+
+  border-style: solid;
+  border-color: #99CCB5;
+  border-width: 1px;
+  border-radius: 5px;
+
+  font: 650 15px system-ui;
+  transition: 0.2s linear;
+}
+
+.button:active {
+  background-color: #3DDBB7;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+

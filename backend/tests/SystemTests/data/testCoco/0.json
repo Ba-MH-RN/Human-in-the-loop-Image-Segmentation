@@ -1,0 +1,1 @@
+{"info":{"description":"Human-in-the-loop Image-Segmentation","ModelVersion":"10"},"categories":[{"id":0,"name":"cat"}],"images":[{"id":0,"file_name":" ","height":191,"width":265}],"annotations":[{"id":0,"image_id":0,"category_id":0,"segmentation":[93,66,83,103,87,166,95,172,151,175,205,145,240,143,257,135,232,115,212,105,182,96,157,104,154,32,133,52,111,50,89,35,93,66]}]}
