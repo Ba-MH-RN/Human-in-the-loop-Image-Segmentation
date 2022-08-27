@@ -12,7 +12,7 @@ class postprocess():
         contours, _ = cv2.findContours(area, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE) #for polygon approximation: CHAIN_APPROX_TC89_KCOS
         polygons = []
         for i,contour in enumerate(contours):
-            epsilon = 0.005*cv2.arcLength(contour,True) #for epsilon depending on polygon size: 0.005*cv2.arcLength(contour,True)
+            epsilon = 0.5 #for epsilon depending on polygon size: 0.005*cv2.arcLength(contour,True)
             approx = cv2.approxPolyDP(contour,epsilon,True)
 
             poly = []

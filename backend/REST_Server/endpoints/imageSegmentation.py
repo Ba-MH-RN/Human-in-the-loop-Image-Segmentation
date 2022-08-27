@@ -190,5 +190,6 @@ async def upload_No_Correction(noCorrectionInput: schemas.noCorrectionInputSchem
     if tokenRow == None:
         raise fastapi.HTTPException(status_code=406, detail=responses[406]["detail"])
 
-    crud.updateTokenStatus(db=db, token=noCorrectionInput.token, status="exit")
+    if tokenRow.status != "closed":
+        crud.updateTokenStatus(db=db, token=noCorrectionInput.token, status="exit")
     return Response(status_code=HTTP_200_OK)
